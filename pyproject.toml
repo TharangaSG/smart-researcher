@@ -1,0 +1,19 @@
+[build-system]
+requires = ["uv"]
+build-backend = "uv.pip_install.build_backend"
+
+[project]
+name = "reasearch-agent"
+version = "0.1.0"
+description = "Your project description"
+authors = [{ name = "thara", email = "" }]
+dependencies = [
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langchain-anthropic",
+    "python-dotenv",
+    "pydantic",
+    "duckduckgo-search",
+    "wikipedia"
+]
